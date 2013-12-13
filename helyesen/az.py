@@ -311,5 +311,5 @@ def classify(featureset) :
       elif featureset["bigram"] == u'\u0151r': return u'az'
       elif featureset["bigram"] == u'\u0151s': return u'az'
       elif featureset["bigram"] == u'\u0171r': return u'az'
-
+    return u'a'
 
